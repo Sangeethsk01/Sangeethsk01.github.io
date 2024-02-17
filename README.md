@@ -1,4 +1,7 @@
 # WAPH-Web Application Programming and Hacking
+# Individual Project 1
+## Front-end Web Development with a Professional Profile Website on github.io cloud service
+
 ## Instructor: Dr. Phu Phung
 ## Student
 **Name**: Sangeeth Kumar Kotagiri<br>
@@ -7,5 +10,3 @@
 ![My Headhsot](headshot.png)
 ## Repository Information
 **Repository URL**: https://github.com/Sangeethsk01/Sangeethsk01.github.io
-# Individual Project 1
-## Front-end Web Development with a Professional Profile Website on github.io cloud service

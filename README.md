@@ -43,6 +43,10 @@ Link to the portfolio webpage:
     </div>
   ```
 
+
+ ![ss4](img/ss4.png) 
+
+  
 ## Task 3: Technical requirements
 ### Javascript frameworks
 - Used jQuery to implement an analog clock in the 'more' section and a digital clock, a show/hide email function in the 'about' section.

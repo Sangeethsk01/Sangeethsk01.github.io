@@ -39,7 +39,26 @@ Link to the portfolio webpage:
 ## Task 3: Technical requirements
 ### Javascript frameworks
 - Used jQuery to implement an analog clock in the 'more' section and a digital clock, a show/hide email function in the 'about' section.
+
 - Used javascript open source library 'anime' library to create animation by making a button move when clicked on it. Used an EventListner to achieve this.
+  Animation code:
+  ```html
+  <div id="animatedElement">Click me to Move!</div>
+  // Using JS Animation library to move an element
+          const element = document.getElementById('animatedElement');
+
+          // Add a click event listener to trigger the animation
+           element.addEventListener('click', () => {
+          anime({
+          targets: element,
+          translateX: 1000,
+          easing: 'easeInOutQuad',
+          duration: 1000,
+          direction: 'alternate',
+            });
+          });
+  ```
+  
 ### API Integration
 - Included the public jokeAPI to display a new joke every one minute. Used ajax function to send the API get request.
 - Used a public API named `rickandmortyapi` to get cartoon characters when requested. Built a function to generate a random number to get a random character when clicked on the button.

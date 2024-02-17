@@ -70,8 +70,8 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
 - Used javascript open source library 'anime' library to create animation by making a button move when clicked on it. Used an EventListner to achieve this.
   Animation code:
   ```html
-  <div id="animatedElement">Click me to Move!</div>
-  <script>
+   <div id="animatedElement">Click me to Move!</div>
+   <script>
           // Using JS Animation library to move an element
           const element = document.getElementById('animatedElement');
           // Add a click event listener to trigger the animation
@@ -84,7 +84,7 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
           direction: 'alternate',
             });
           });
-  </script>
+   </script>
   ```
   
 ### API Integration
@@ -95,8 +95,8 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
   ```html
   <div id="jokeContainer">
         <!-- The joke will be displayed here -->
-  </div>
-  <script>
+   </div>
+   <script>
         // Function to fetch and display a joke
         function fetchJoke() {
             $.ajax({
@@ -120,20 +120,20 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
 
         // Set up interval to fetch and display a joke every minute
         setInterval(fetchJoke, 60000);
-  </script>
+   </script>
   ```
-![ss6](img/ss6.png) 
 
- 
+
+     
 - Used a public API named `rickandmortyapi` to get cartoon characters when requested. Built a function to generate a random number to get a random character when clicked on the button.
 
   Code:
   ```html
-  <button id="getRandomCharacter">Get a Random Cartoon Character</button>
+   <button id="getRandomCharacter">Get a Random Cartoon Character</button>
     <div id="characterImage">
         <!-- Character image will be displayed here -->
     </div>
-  <script>
+   <script>
     //Generating Rick and morty cartoon characters
         $("#getRandomCharacter").click(function(){
             getRandomCharacter();
@@ -161,7 +161,7 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
             var characterImage = '<img src="' + character.image + '" alt="' + character.name + '">';
             $("#characterImage").html(characterImage);
         }
-  </script>
+   </script>
   ```
 ### Using JavaScript cookies
 - Using a cookie, written a Javascript code to display a welcome message for the new visitors and a welcomeback message for the old visitors on the home section. The JavaScript code includes two functions for handling cookies in the web browser. The setCookie function sets a cookie with a given name, value, and optional expiration period in days. The getCookie function retrieves the value of a specified cookie by searching through the document's stored cookies.
@@ -216,3 +216,6 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
         });
     </script>
   ```
+
+
+  ![ss6](img/ss6.png) 

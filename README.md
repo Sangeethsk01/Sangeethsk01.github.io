@@ -44,8 +44,8 @@ Link to the portfolio webpage:
   Animation code:
   ```html
   <div id="animatedElement">Click me to Move!</div>
-  // Using JS Animation library to move an element
   <script>
+          // Using JS Animation library to move an element
           const element = document.getElementById('animatedElement');
           // Add a click event listener to trigger the animation
            element.addEventListener('click', () => {

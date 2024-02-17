@@ -61,7 +61,38 @@ Link to the portfolio webpage:
   ```
   
 ### API Integration
-- Included the public jokeAPI to display a new joke every one minute. Used ajax function to send the API get request.
+- Included the public jokeAPI to display a new joke every one minute. Used Ajax function to send the API get request.
+  Code:
+  ```html
+  <div id="jokeContainer">
+        <!-- The joke will be displayed here -->
+  </div>
+  <script>
+        // Function to fetch and display a joke
+        function fetchJoke() {
+            $.ajax({
+                url: 'https://v2.jokeapi.dev/joke/Any',
+                method: 'GET',
+                success: function(response) {
+                    // Check if it's a single-part or two-part joke
+                    var jokeText = response.type === 'single' ? response.joke : response.setup + ' ' + response.delivery;
+
+                    // Display the joke in the container
+                    $('#jokeContainer').html('<p>' + jokeText + '</p>');
+                },
+                error: function(error) {
+                    console.error('Error fetching joke:', error);
+                }
+            });
+        }
+
+        // Initial fetch when the page loads
+        fetchJoke();
+
+        // Set up interval to fetch and display a joke every minute
+        setInterval(fetchJoke, 60000);
+  </script>
+  
 - Used a public API named `rickandmortyapi` to get cartoon characters when requested. Built a function to generate a random number to get a random character when clicked on the button.
 ### Using JavaScript cookies
 - Using a cookie, written a Javascript code to display a welcome message for the new visitors and a welcomeback message for the old visitors on the home section. The JavaScript code includes two functions for handling cookies in the web browser. The setCookie function sets a cookie with a given name, value, and optional expiration period in days. The getCookie function retrieves the value of a specified cookie by searching through the document's stored cookies.

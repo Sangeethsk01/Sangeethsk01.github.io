@@ -27,6 +27,13 @@ Link to the portfolio webpage:
 
   
 - Included a page tracker using `flagcounter` to count the number of visitors to the page. Included this counter at the bottom of the page.
+  Page Tracker:
+  ```html
+   <!--Flag counter to count visitors-->
+    <div class="Counter">
+      <a href="https://www.flagcounter.me/details/euM"><img src="https://www.flagcounter.me/euM/" alt="Flag Counter"></a>
+    </div>
+  ```
 
 ## Task 3: Technical requirements
 ### Javascript frameworks

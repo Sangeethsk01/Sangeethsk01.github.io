@@ -29,6 +29,9 @@ Link to the portfolio webpage:
 ## Task 2: Non-technical requirements
 - I have used an open-source bootstrap template and CSS library to design this portfolio. The page contains features like the animation on scroll (aos), navigation bar, reload effects, etc.
 
+
+ ![ss3](img/ss3.png) 
+ 
   
 - Included a page tracker using `flagcounter` to count the number of visitors to the page. Included this counter at the bottom of the page.
   Page Tracker:

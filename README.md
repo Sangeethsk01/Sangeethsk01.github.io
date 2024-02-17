@@ -35,7 +35,8 @@ Link to the portfolio webpage:
   
 - Included a page tracker using `flagcounter` to count the number of visitors to the page. Included this counter at the bottom of the page.
 
-  ![ss4](img/ss4.png) 
+  ![ss4](img/ss4.png)
+  
   Page Tracker:
   ```html
    <!--Flag counter to count visitors-->
@@ -49,6 +50,9 @@ Link to the portfolio webpage:
 ## Task 3: Technical requirements
 ### Javascript frameworks
 - Used jQuery to implement an analog clock in the 'more' section and a digital clock, a show/hide email function in the 'about' section.
+
+ ![ss5](img/ss5.png) 
+
 
 - Used javascript open source library 'anime' library to create animation by making a button move when clicked on it. Used an EventListner to achieve this.
   Animation code:

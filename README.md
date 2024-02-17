@@ -7,3 +7,5 @@
 ![My Headhsot](headshot.png)
 ## Repository Information
 **Repository URL**: https://github.com/Sangeethsk01/Sangeethsk01.github.io
+# Individual Project 1
+## Front-end Web Development with a Professional Profile Website on github.io cloud service

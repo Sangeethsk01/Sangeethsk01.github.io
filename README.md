@@ -96,5 +96,42 @@ Link to the portfolio webpage:
   </script>
   
 - Used a public API named `rickandmortyapi` to get cartoon characters when requested. Built a function to generate a random number to get a random character when clicked on the button.
+
+  Code:
+  ```html
+  <button id="getRandomCharacter">Get a Random Cartoon Character</button>
+    <div id="characterImage">
+        <!-- Character image will be displayed here -->
+    </div>
+  <script>
+    //Generating Rick and morty cartoon characters
+        $("#getRandomCharacter").click(function(){
+            getRandomCharacter();
+        });
+
+        function getRandomCharacter() {
+            $.ajax({
+                url: 'https://rickandmortyapi.com/api/character/' + getRandomCharacterId(),
+                method: 'GET',
+                success: function(response) {
+                    displayCharacterImage(response);
+                },
+                error: function(error) {
+                    console.error('Error fetching character:', error);
+                }
+            });
+        }
+
+        function getRandomCharacterId() {
+            // The Rick and Morty API has characters up to id 671, adjust as needed
+            return Math.floor(Math.random() * 671) + 1;
+        }
+
+        function displayCharacterImage(character) {
+            var characterImage = '<img src="' + character.image + '" alt="' + character.name + '">';
+            $("#characterImage").html(characterImage);
+        }
+  </script>
+  
 ### Using JavaScript cookies
 - Using a cookie, written a Javascript code to display a welcome message for the new visitors and a welcomeback message for the old visitors on the home section. The JavaScript code includes two functions for handling cookies in the web browser. The setCookie function sets a cookie with a given name, value, and optional expiration period in days. The getCookie function retrieves the value of a specified cookie by searching through the document's stored cookies.

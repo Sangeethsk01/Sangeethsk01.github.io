@@ -19,9 +19,12 @@ Link to the portfolio webpage:
 - Created an index.html file to display my information including my name, headshot, skills, and resume. Hosted this page as a personal website on my GitHub cloud account under the name `Sangeethsk01.github.io`.
 
   ![ss1](img/ss1.png)
-  
+
+   
 - Created another file named course.html that introduces this course and provides the links to all the labs and hackathons I completed. Provided this file as a link in the personal website page in the 'About' section.
 
+
+  ![ss2](img/ss2.png)
 
 ## Task 2: Non-technical requirements
 - I have used an open-source bootstrap template and CSS library to design this portfolio. The page contains features like the animation on scroll (aos), navigation bar, reload effects, etc.

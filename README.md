@@ -45,8 +45,8 @@ Link to the portfolio webpage:
   ```html
   <div id="animatedElement">Click me to Move!</div>
   // Using JS Animation library to move an element
+  <script>
           const element = document.getElementById('animatedElement');
-
           // Add a click event listener to trigger the animation
            element.addEventListener('click', () => {
           anime({
@@ -57,6 +57,7 @@ Link to the portfolio webpage:
           direction: 'alternate',
             });
           });
+  </script>
   ```
   
 ### API Integration

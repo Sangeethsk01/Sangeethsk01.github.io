@@ -18,6 +18,7 @@ Link to the portfolio webpage:
 ## Task 1: General Requirements
 - Created an index.html file to display my information including my name, headshot, skills, and resume. Hosted this page as a personal website on my GitHub cloud account under the name `Sangeethsk01.github.io`.
 
+  ![ss1](ss1.png)
   
 - Created another file named course.html that introduces this course and provides the links to all the labs and hackathons I completed. Provided this file as a link in the personal website page in the 'About' section.
 

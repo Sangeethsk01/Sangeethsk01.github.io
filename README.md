@@ -12,6 +12,8 @@
 **Repository URL**: https://github.com/Sangeethsk01/Sangeethsk01.github.io
 ## Project Overview
 
+Link to the `github.io` repository:
+Link to the portfolio webpage:
 
 ## Task 1: General Requirements
 - Created an index.html file to display my information including my name, headshot, skills, and resume. Hosted this page as a personal website on my GitHub cloud account under the name `Sangeethsk01.github.io`.

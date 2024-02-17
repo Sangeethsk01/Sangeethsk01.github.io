@@ -34,6 +34,8 @@ Link to the portfolio webpage:
  
   
 - Included a page tracker using `flagcounter` to count the number of visitors to the page. Included this counter at the bottom of the page.
+
+  ![ss4](img/ss4.png) 
   Page Tracker:
   ```html
    <!--Flag counter to count visitors-->
@@ -42,9 +44,6 @@ Link to the portfolio webpage:
       <img src="https://www.flagcounter.me/euM/" alt="Flag Counter"></a>
     </div>
   ```
-
-
- ![ss4](img/ss4.png) 
 
   
 ## Task 3: Technical requirements

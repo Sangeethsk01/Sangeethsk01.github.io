@@ -31,7 +31,8 @@ Link to the portfolio webpage:
   ```html
    <!--Flag counter to count visitors-->
     <div class="Counter">
-      <a href="https://www.flagcounter.me/details/euM"><img src="https://www.flagcounter.me/euM/" alt="Flag Counter"></a>
+      <a href="https://www.flagcounter.me/details/euM">
+      <img src="https://www.flagcounter.me/euM/" alt="Flag Counter"></a>
     </div>
   ```
 

@@ -4,12 +4,23 @@
 
 ## Instructor: Dr. Phu Phung
 ## Student
-**Name**: Sangeeth Kumar Kotagiri<br>
-**Email**: kotagisr@mail.uc.edu <br>
-**Short-bio**: I am an IT graduate student at UC. I am interested in backend development and AI.<br>
-![My Headhsot](headshot.png)
-## Repository Information
-**Repository URL**: https://github.com/Sangeethsk01/Sangeethsk01.github.io
+**Name**: Sangeeth Kumar Kotagiri 
+
+
+**Email**: kotagisr@mail.uc.edu 
+
+
+**Short-bio**: I am an IT graduate student at UC. I am interested in backend development and AI. 
+
+ 
+![My Headhsot](headshot.png) 
+
+
+## Repository Information 
+
+**Repository URL**: https://github.com/Sangeethsk01/Sangeethsk01.github.io 
+
+
 ## Project Overview
 The project involves creating a personal website hosted on GitHub. The website includes an index.html file displaying personal information, skills, and a resume. A separate course.html file links to labs and hackathons. The site uses an open-source Bootstrap template with features like scroll animation, navigation bar, and reload effects. A page tracker using Flagcounter counts visitors. Technical features include a jQuery analog clock, a digital clock, and a show/hide email function. The project integrates a joke API for displaying jokes, a Rick and Morty API for random cartoon characters, and utilizes JavaScript cookies to show a welcome message for new and returning visitors. Overall, I learned how to host a static webpage on github.io and design it with css and bootstrap. I also learned about javascript libraries and how cookies work.
 
@@ -192,7 +203,7 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
             if (lastVisit === null) {
                 // First-time visit
                 welcomeMessage.text("Welcome to my homepage!");
-                setCookie("lastVisit", new Date().toUTCString(), 365); // Cookie lasts for 1 year
+                setCookie("lastVisit", new Date().toUTCString(), 365); 
             } else {
                 // Returning visit
                 welcomeMessage.text("Welcome back! Your last visit was " + lastVisit);

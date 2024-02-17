@@ -104,7 +104,8 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
                 method: 'GET',
                 success: function(response) {
                     // Check if it's a single-part or two-part joke
-                    var jokeText = response.type === 'single' ? response.joke : response.setup + ' ' + response.delivery;
+                    var jokeText = response.type === 'single' ?
+                    response.joke : response.setup + ' ' + response.delivery;
 
                     // Display the joke in the container
                     $('#jokeContainer').html('<p>' + jokeText + '</p>');
@@ -141,7 +142,8 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
 
         function getRandomCharacter() {
             $.ajax({
-                url: 'https://rickandmortyapi.com/api/character/' + getRandomCharacterId(),
+                url: 'https://rickandmortyapi.com/api/character/' +
+                      getRandomCharacterId(),
                 method: 'GET',
                 success: function(response) {
                     displayCharacterImage(response);
@@ -158,7 +160,8 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
         }
 
         function displayCharacterImage(character) {
-            var characterImage = '<img src="' + character.image + '" alt="' + character.name + '">';
+            var characterImage = '<img src="' + character.image + '" alt="'
+            + character.name + '">';
             $("#characterImage").html(characterImage);
         }
    </script>

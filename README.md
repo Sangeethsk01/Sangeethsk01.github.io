@@ -135,3 +135,54 @@ Link to the portfolio webpage:
   
 ### Using JavaScript cookies
 - Using a cookie, written a Javascript code to display a welcome message for the new visitors and a welcomeback message for the old visitors on the home section. The JavaScript code includes two functions for handling cookies in the web browser. The setCookie function sets a cookie with a given name, value, and optional expiration period in days. The getCookie function retrieves the value of a specified cookie by searching through the document's stored cookies.
+
+  Code:
+  ```html
+   <strong><div class="cookie" id="welcomeMessage"></div></strong>
+    <script>
+      // Cookie code
+       function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i];
+                while (cookie.charAt(0) == ' ') {
+                    cookie = cookie.substring(1, cookie.length);
+                }
+                if (cookie.indexOf(nameEQ) == 0) {
+                    return cookie.substring(nameEQ.length, cookie.length);
+                }
+            }
+            return null;
+        }
+
+        function displayWelcomeMessage() {
+            var lastVisit = getCookie("lastVisit");
+            var welcomeMessage = $("#welcomeMessage");
+
+            if (lastVisit === null) {
+                // First-time visit
+                welcomeMessage.text("Welcome to my homepage!");
+                setCookie("lastVisit", new Date().toUTCString(), 365); // Cookie lasts for 1 year
+            } else {
+                // Returning visit
+                welcomeMessage.text("Welcome back! Your last visit was " + lastVisit);
+            }
+        }
+
+        // Call the function when the document is ready
+        $(document).ready(function(){
+            displayWelcomeMessage();
+        });
+    </script>
+  ```

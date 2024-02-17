@@ -121,7 +121,7 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
         // Set up interval to fetch and display a joke every minute
         setInterval(fetchJoke, 60000);
   </script>
-
+  ```
 ![ss6](img/ss6.png) 
 
  
@@ -162,7 +162,7 @@ Link to the portfolio webpage: [https://sangeethsk01.github.io/index.html](https
             $("#characterImage").html(characterImage);
         }
   </script>
-  
+  ```
 ### Using JavaScript cookies
 - Using a cookie, written a Javascript code to display a welcome message for the new visitors and a welcomeback message for the old visitors on the home section. The JavaScript code includes two functions for handling cookies in the web browser. The setCookie function sets a cookie with a given name, value, and optional expiration period in days. The getCookie function retrieves the value of a specified cookie by searching through the document's stored cookies.
 

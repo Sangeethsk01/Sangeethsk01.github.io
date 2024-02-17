@@ -62,6 +62,8 @@ Link to the portfolio webpage:
   
 ### API Integration
 - Included the public jokeAPI to display a new joke every one minute. Used Ajax function to send the API get request.
+
+  
   Code:
   ```html
   <div id="jokeContainer">

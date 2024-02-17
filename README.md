@@ -108,7 +108,10 @@ Link to the portfolio webpage:
         // Set up interval to fetch and display a joke every minute
         setInterval(fetchJoke, 60000);
   </script>
-  
+
+![ss6](img/ss6.png) 
+
+ 
 - Used a public API named `rickandmortyapi` to get cartoon characters when requested. Built a function to generate a random number to get a random character when clicked on the button.
 
   Code:

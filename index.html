@@ -367,7 +367,7 @@
         // Function to fetch and display a joke
         function fetchJoke() {
             $.ajax({
-                url: 'https://v2.jokeapi.dev/joke/Any',
+                url: 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=explicit&type=single',
                 method: 'GET',
                 success: function(response) {
                     // Check if it's a single-part or two-part joke
